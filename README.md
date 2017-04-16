@@ -7,3 +7,7 @@ I'm hoping to get developers and programers that know more about nltk to follow 
 
 
 <img src="http://abhijitbangera.com/wp-content/uploads/2017/03/python-AI-825x510.jpg" alt="Image result for jarvis ai"/>
+
+
+
+I will have to add a few sections of code that will deal with telling if the sentence is a statment,question,compliment,order or other. As well as one that deals with keywords that are good and bad to tell what is going on and if action on the AIs part must be taken. I will then have a list of actions that it can take and cammands that it knows like for example: what's the weather like or where are we! I need to also find a decent speech recognition module so when i set this up on my raspberry pi which is how i am going to make it portable. It will be able to tell what i am saying with at-least 80% acuracy!
