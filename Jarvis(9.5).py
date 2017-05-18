@@ -10,27 +10,45 @@
 ##import calendar 
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.tokenize import PunktSentenceTokenizer
+
+
+#Brain functions, vocab!
+
 what_i_should_call_someone = [""]
 
+Good_Things = ["love","sweat","nice","happy","fun","awesome","great"]
 
-#simply vocab/small talk
+Bad_Things = ["death","kill","hurt","harm","discomfort","rape","pain","sad","depression","depressed","angry","mad","broken","raging","rage"]
+
+Static_Greetings = ["hey","hello","hi","hey there","hi there","hello there"]
+
+Sample_questions = ["what is the weather like","where are we today","why did you do that","where is the dog","when are we going to leave","why do you hate me","what is the Answer to question 8","what is a dinosour","what do i do in an hour","why do we have to leave at 6.00", "When is the apointment"]
+
+possible_question_key_words = ["what's","what","where","when","why","isn't","whats"]
+
+posible_answer_key_words = ["becuase","yes","no"]
 
 
+Chance_that_question_was_asked_1 = 0
 
-
-static_greetings = ["hey","hello","hi"]
-
-possible_question_key_words = ["what's","what","where","when","why","is this","isn't this","is that","isn't that"]
+Chance_that_question_was_asked_2 = 0
 
 certainty_question_was_asked = 0
 
-me_statment = ["you","your","yours"]
+Me_statment_keywords = ["you","your","yours"]
 
+You_statment_keywords = ["i","i'm","me"]
 
-#Brain function!
-certainty_person_is_talking_to_me = 0
+global certainty_person_is_talking_to_me
 
-The_last_thing_person_said = ("")
+what_i_said = ("")
+
+Just_asked_querstion = False
+
+the_last_thing_i_said = ("")
+
+the_last_thing_person_said = ("")
 
 what_person_said = ("")
 
@@ -47,6 +65,7 @@ how_i_feel = [""]
 why_do_i_feel_the_way_i_do = [""]
 
 what_i_am_thinking = ("")
+
 # ways to describe the nouns last said
 it_pronouns = ["it","they","she","he"]
 
@@ -56,146 +75,61 @@ last_nouns = [""]
 
 
 
-while "conversation":
-    
+        
+while "Conversation":
 
-
-    
+            
     what_person_said = input()
 
-    
-    what_person_said_p1 = word_tokenize(what_person_said)
 
-# try to define/name each word in the sentence! if the sentence is not as long as 9ish words it will except so it doest throw a index error!
+    what_person_said_l = what_person_said.lower()
+            
+    what_person_said_l_wt = word_tokenize(what_person_said_l)
 
-     # word one in sentence 
-    try: 
-        word1 = what_person_said_p1[0]
-        print(word1)
-    except IndexError:
+        # try to define/name each word in the sentence! if the sentence is not as long as 9ish words it will except so it doest throw a index error!
+
+             # word one in sentence
+
+    for word in what_person_said_l_wt:
+         # print (word)
          pass
-    
-     # word two in sentence
-    try:
-        word2 = what_person_said_p1[1]
-        print(word2)
-    except IndexError:
-         pass
-        
-     #sentence three in 
-    try:
-        word3 = what_person_said_p1[2]
-        print(word3)
-    except IndexError:
-         pass
-        
-    try:
-        word4 = what_person_said_p1[3]
-        print(word4)
-    except IndexError:
-        pass
-    
-    try:
-        word5 = what_person_said_p1[4]
-        print(word5)
-    except IndexError:
-        pass
-        
-    try:
-        word6 = what_person_said_p1[5]
-        print(word6)
-    except IndexError:
-        pass
-    
-  
-    try:
-        word7 = what_person_said_p1[6]
-        print(word7)
-    except IndexError:
-        pass
-    
-    try:
-        word8 = what_person_said_p1[7]
-        print(word8)
-    except IndexError:
-        pass
-    
+
+           
+    def Analyze():
+
+        def Analyze_for_question():
+
+                def Question_Keyword_Check():
+                    global possible_question_key_words
+                    for words in what_person_said_l_wt:
+                        if words in possible_question_key_words:
+                            print (words)
+
+
+                
+
+
+
+
+
+                        
+                Question_Keyword_Check()
+            
+        Analyze_for_question()
+                        
+    Analyze()
  
-    try:
-        word9 = what_person_said_p1[8]
-        print(word9)
-    except IndexError:
-        pass
-
- 
-    try:
-        word10 = what_person_said_p1[9]
-        print(word10)
-    except IndexError:
-        pass
-
-
-    try:
-        word11 = what_person_said_p1[10]
-        print(word11)
-    except IndexError:
-        pass
-
-    try:
-        word12 = what_person_said_p1[11]
-        print(word12)
-    except IndexError:
-        pass
-
-
-    try:
-        word13 = what_person_said_p1[12]
-        print(word13)
-    except IndexError:
-        pass
-
-
-    try:
-        word14 = what_person_said_p1[13]
-        print(word14)
-    except IndexError:
-        pass
-
-
-    try:
-        word15 = what_person_said_p1[14]
-        print(word15)
-    except IndexError:
-        pass
-
-
-
-    try:
-        word16 = what_person_said_p1[15]
-        print(word16)
-    except IndexError:
-        pass
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     
+
+
+
+
+
+
+
+
+
+
+            
