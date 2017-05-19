@@ -83,8 +83,6 @@ while conversation==True:
             what_person_said_l = value.lower()
             what_person_said_l_wt = word_tokenize(what_person_said_l)
             Analyze()
-            if "goodbye" in what_person_said_l_wt:
-                conversation=False
 
         except sr.UnknownValueError:
             print("Oops! Didn't catch that")
