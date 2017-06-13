@@ -5,7 +5,7 @@ Hello my name is Sergei and i have a youtube channel called Tech Set Studios! I 
 
 
 
-<img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjAzoHm57vUAhUKWD4KHeq-A2wQjRwIBw&url=https%3A%2F%2Fwallpapersafari.com%2Firon-man-jarvis-live-wallpaper%2F&psig=AFQjCNHrz2sID_JLoi5sVOMdRqLV6h-7DQ&ust=1497476903152840" alt=""/>
+<img src="https://github.com/techsetonyoutube/Jarvis-AI/blob/master/Jarvis%20Desktop%20backround.jpg" alt=""/>
 
 
 
