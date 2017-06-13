@@ -5,7 +5,7 @@ Hello my name is Sergei and i have a youtube channel called Tech Set Studios! I 
 
 
 
-<img src="Jarvis-AI/jarvis backround 788.png" alt="Image result for jarvis ai"/>
+<img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi8xbSy5rvUAhWFPz4KHfdTAm4QjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F541487555179636897%2F&psig=AFQjCNHrz2sID_JLoi5sVOMdRqLV6h-7DQ&ust=1497476903152840" alt=""/>
 
 
 
