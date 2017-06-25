@@ -15,6 +15,6 @@ If you would like to join our team of coders working on jarvis (Not a paying job
 
 This is the NLTK module tutorial series from sentdex: https://www.youtube.com/playlist?list=PLQVvvaa0QuDf2JswnfiGkliBInZnIC4HL
 
-Tech Set Studios (My youtub Channel): https://www.youtube.com/channel/UCVsqC7KZVDLi3fTMFAw_A7w
+Tech Set Studios (My youtube Channel): https://www.youtube.com/channel/UCVsqC7KZVDLi3fTMFAw_A7w
 
-Short Cut to email :) https://mail.google.com/mail/u/0/#inbox?compose=15ce1ac2079d2dc2
+Short Cut to emailing me :) https://mail.google.com/mail/u/0/#inbox?compose=15ce1ac2079d2dc2
